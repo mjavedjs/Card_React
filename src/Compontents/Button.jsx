@@ -8,7 +8,7 @@
           borderRadius: "8px",
           border: "none",
           cursor: "pointer",
-          transition: "background-color 0.3s",}} onClick={props.click} >
+          transition: "background-color 0.3s",}} onClick={props.onClick} >
         {props.title}
       </button>
     );
